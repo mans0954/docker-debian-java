@@ -1,4 +1,9 @@
+Build
+=====
 
+```
+docker build . --tag debian-java
+```
 
 Run
 ===

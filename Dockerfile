@@ -14,6 +14,8 @@ RUN apt-get install -y apt-file licensecheck
 
 RUN apt-file update
 
+RUN apt-get install -y devscripts
+
 RUN mkdir /src
 
 WORKDIR /src
